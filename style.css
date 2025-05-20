@@ -149,3 +149,22 @@ section {
   opacity: 1;
   transform: translateY(0);
 }
+
+@media screen and (max-width: 768px) {
+  .theme-toggle,
+  .language-toggle {
+    padding: 1px 4px;
+    font-size: 0.7rem;
+    border-radius: 20%;
+  }
+
+  .theme-toggle {
+    right: 29px;
+    top: 2px;
+  }
+
+  .language-toggle {
+    right: 1px;
+    top: 2px;
+  }
+}
